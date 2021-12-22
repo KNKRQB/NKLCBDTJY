@@ -69,4 +69,4 @@
 
 | **주차** | **폴더명** | **문제 1**                                                                | **문제 2**                                                       | **문제 3**                                                              | **진행 현황** |
 | -------- | ---------- | ------------------------------------------------------------------------- | ---------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------- |
-| 1주차    | greedy     | [전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577) | [위장](https://programmers.co.kr/learn/courses/30/lessons/42578) | [베스트 앨범](https://programmers.co.kr/learn/courses/30/lessons/42579) | `진행중`      |
+| 1주차    | 해시       | [전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577) | [위장](https://programmers.co.kr/learn/courses/30/lessons/42578) | [베스트 앨범](https://programmers.co.kr/learn/courses/30/lessons/42579) | `진행중`      |

@@ -53,15 +53,17 @@
 
 #### 프로그래머스
 
-- Programmers/suyeon/폴더명/문제명.py
-- Programmers/eugene/폴더명/문제명.py
-- Programmers/jiwoo/폴더명/문제명.py
+- Programmers/Sunghyeon/폴더명/문제명.py
+- Programmers/Jinsan/폴더명/문제명.py
+- Programmers/Sungho/폴더명/문제명.py
+- Programmers/Jiwon/폴더명/문제명.py
 
 #### 백준
 
-- Baekjoon/suyeon/폴더명/문제번호\_문제명.py
-- Baekjoon/eugene/폴더명/문제번호\_문제명.py
-- Baekjoon/jiwoo/폴더명/문제번호\_문제명.py
+- Baekjoon/Sunghyeon/폴더명/문제번호\_문제명.py
+- Baekjoon/Jinsan/폴더명/문제번호\_문제명.py
+- Baekjoon/Sungho/폴더명/문제번호\_문제명.py
+- Baekjoon/Jiwon/폴더명/문제번호\_문제명.py
 
 ## 일정표
 

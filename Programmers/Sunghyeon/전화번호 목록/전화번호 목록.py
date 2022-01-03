@@ -2,7 +2,7 @@ def solution(phone_book):
     phone_book.sort();
     max=len(phone_book)-1;
     for i in range(max):
-        if ((phone_book[i].find(phone_book[i+1])==0)|(phone_book[i+1].find(phone_book[i])==0)):
+        if (phone_book[i+1].find(phone_book[i])==0):
             return False;
     return True;
 

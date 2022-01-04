@@ -1,3 +1,4 @@
+=======
 # 2021-Algorithm-Study
 
 > 코딩 테스트 준비를 위한 스터디입니다.
@@ -73,3 +74,4 @@
 | -------- | ---------- | ------------------------------------------------------------------------------------ | ----------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------- | ------------- |
 | 1주차    | 해시       | [전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577)/진산, 성현 | [위장](https://programmers.co.kr/learn/courses/30/lessons/42578)/지원   | [베스트 앨범](https://programmers.co.kr/learn/courses/30/lessons/42579)/성호        |                                                                           | `진행완료`    |
 | 2주차    | 스택/큐    | [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586)/성호            | [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587)/지원 | [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583)/성현 | [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584)/진산 | `진행중`      |
+

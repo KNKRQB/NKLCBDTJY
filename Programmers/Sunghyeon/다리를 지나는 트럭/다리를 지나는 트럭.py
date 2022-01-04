@@ -17,8 +17,6 @@ def solution(bridge_length, weight, truck_weights):
     time=time+bridge_length;
     return time;
 
-print(solution(	100, 100, [10, 10, 10, 10, 10, 10, 10, 10, 10, 10]))
-
 # 큐의 길이 < bridge_length
     # 큐의 총합 + 다음 원소 <= weight
         # 큐에 원소를 하나 집어넣고 time+1;

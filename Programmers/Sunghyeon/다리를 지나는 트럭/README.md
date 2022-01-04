@@ -38,7 +38,7 @@ def solution(bridge_length, weight, truck_weights):
       큐에 원소를 하나 집어넣고 time+1;
    2. 큐의 총합 + truck_weight[0] > weight
       큐에 0을 집어넣는다.
-      <!-- 1-2의 경우 원소가 큐에서 나올 떄 까지 큐에 새로운 원소의 유입이 없다. -->
+      1-2의 경우 원소가 큐에서 나올 떄 까지 큐에 새로운 원소의 유입이 없다.
 2. 큐의 길이 == bridge_length
 
    1. 큐에서 원소를 하나 제거한다.

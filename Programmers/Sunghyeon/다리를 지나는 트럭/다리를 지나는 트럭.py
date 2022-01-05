@@ -2,7 +2,6 @@ def solution(bridge_length, weight, truck_weights):
     que=[];
     time=0;
     while(len(truck_weights)!=0):
-        print(que,truck_weights,time);
         if(len(truck_weights)==0):
             return time;
         if(len(que)<bridge_length):
@@ -16,8 +15,6 @@ def solution(bridge_length, weight, truck_weights):
             que.pop(0);
     time=time+bridge_length;
     return time;
-
-print(solution(	100, 100, [10, 10, 10, 10, 10, 10, 10, 10, 10, 10]))
 
 # 큐의 길이 < bridge_length
     # 큐의 총합 + 다음 원소 <= weight

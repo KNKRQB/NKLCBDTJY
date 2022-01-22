@@ -33,4 +33,4 @@ def solution(operations):
 # https://juun42.tistory.com/41 파이썬 문자열
 # https://leonkong.cc/posts/python-deque.html deque
 # https://wikidocs.net/77 파이썬 모듈(참고)
-# https://codechacha.com/ko/python-convert-string-to-integer/ 파이썬 숫자로 변환
+# https://codechacha.com/ko/python-convert-string-to-integer/ 파이썬 숫자로 변환.

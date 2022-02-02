@@ -1,5 +1,5 @@
 def solution(cititations):
-    cititations.sort(reverse=True)
+    print(cititations.sort(reverse=True))
     top = max(cititations)
     loop = len(cititations)
     for i in range(top):

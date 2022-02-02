@@ -2,10 +2,8 @@ def solution(n, costs):
     lands = [(-1) * i - 1 for i in range(n)]
     costs.sort(key=lambda x: x[2])
     sum = 0
-    #[0 1 1 0 1 -6][0 4 3]
-    for st,ed,cost in costs:
-        print(lands, [st,ed,cost], sum)
-        if lands[st] == lands[ed]:
+    for st,ed,cost in dcosts:
+        if lands[st] == lands[e]:
             continue
         sum += cost
         if (lands[st] >= 0) and (lands[ed] >= 0):
@@ -13,8 +11,8 @@ def solution(n, costs):
             for j in lands:
                 if j == temp:
                     lands[lands.index(j)] = lands[st]
-
             continue
+
         if (lands[st] < 0) and (lands[ed] < 0):
             lands[st] = st
             lands[ed] = st
@@ -22,8 +20,8 @@ def solution(n, costs):
         if lands[st] >= 0:
             lands[ed] = lands[st]
             continue
+
         lands[st] = lands[ed]
-    print(lands)
     return sum
 
 

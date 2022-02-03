@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function solution(N, number) {
+        let arr = Array.from({ length: 9 }, () => new Set());
+        arr.forEach((ele, idx) => {
+          let val = Number(`${N}`.repeat(idx));
+          ele.add(val);
+        });
+        for (let i = 1; i <= 8; i++) {
+          for (let j = 1; j < i; j++) {
+            for (let item1 of arr[j]) {
+              for (let item2 of arr[i - j]) {
+                arr[i].add(item1 * item2);
+                arr[i].add(item1 - item2);
+                arr[i].add(item1 + item2);
+                arr[i].add(Math.floor(item1 / item2));
+              }
+            }
+          }
+          if (arr[i].has(number)) {
+            return i;
+          }
+        }
+        return -1;
+      }
+      console.log(solution(5, 12));
+    </script>
+  </body>
+</html>

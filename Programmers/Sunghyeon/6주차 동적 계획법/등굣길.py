@@ -8,12 +8,7 @@ def solution(m, n, puddles):
             if(arr[i][j]==-1): ##물가일경우 0으로 바꾸어줌
                 arr[i][j]==0
             else:
-                if(arr[i-1][j]==-1): ## 물가가 주위에 있을경우를 생각하여 다르게 계산함
-                    arr[i][j]+=arr[i][j-1];
-                elif(arr[i][j-1]==-1):
-                    arr[i][j]+=arr[i-1][j];
-                else:
-                    arr[i][j]+=arr[i][j-1]+arr[i-1][j]; 
+                arr[i][j]+=arr[i][j-1]+arr[i-1][j]; 
     return arr[n-1][m-1]%1000000007;
                 
         

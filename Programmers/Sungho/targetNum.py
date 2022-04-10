@@ -8,6 +8,7 @@ def solution(numbers, target):
         for j in ans[-1]:
             temp.append(j + i)
             temp.append(j - i)
+        print(temp, "answer:", ans)
         ans.append(temp)
     return ans[-1].count(target)
 
